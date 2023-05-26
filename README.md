@@ -1,3 +1,64 @@
+# Projeto Calculadora - Formações React 
+## Empresa Júnior uniQode do IFSC Florianópolis
+
+Calculadora utilizada como base das formações em React desenvolvida pelo Empresa Júnior 
+uniQode do campus Florianópolis do IFSC 
+
+Código fonte criado com uso do Create React App(CRA) com o seguinte comando:
+
+```
+    $ npx create-react-app calculadora-uniqode --template typescript --use-npm
+```
+## Requisitos
+
+* Node
+* NPM
+* VSCode
+
+## Obtendo o Código
+
+Para baixar o código mais atual execute no terminal:
+
+```
+    $ git clone https://github.com/bpvelloso/calculadora-uniqode.git
+```
+
+Se desejar o código específico de alguma aula selecione o zip desejado nas releases:
+
+https://github.com/bpvelloso/calculadora-uniqode/releases
+
+## Iniciando a aplicação
+
+Finalizado o download do código, entre na pasta calculadora-unicode:
+
+```
+    $ cd calculadora-unicode
+```
+
+Execute o comando para instalar as dependencias
+
+```
+    $ npm install
+```
+
+Inicie o VSCode
+
+```
+    $ code .
+```
+
+Inicie o servidor de desenvolvimento
+
+```
+    $ npm start
+```
+
+Bom Trabalho! :D
+
+
+> Segue texto original do README criado pelo CRA, para conhecimento
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
