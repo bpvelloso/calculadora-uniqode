@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import Resultado from './componentes/Resultado';
+import CampoNumerico from './componentes/CampoNumerico';
+
 
 function App() {
 
@@ -23,8 +26,8 @@ function App() {
 
   return (
     <div>
-      <input type="number" value={num1} 
-             onChange={ evento => setNum1(Number(evento.target.value)) }/>
+      <CampoNumerico valor={num1} setValor={setNum1} label="#1"/>
+      
       <div>
         <button className={operacao==='+' ? 'operacao_selecionada' : ''  } 
                 onClick={ evento => setOperacao('+') }>+</button>
@@ -38,10 +41,9 @@ function App() {
         <button className={operacao==='/' ? 'operacao_selecionada' : ''  } 
                 onClick={ evento => setOperacao('/') }>/</button>
       </div>
-      <input type="number" value={num2}
-            onChange={ evento => setNum2(Number(evento.target.value)) }/>
-      <hr/>
-      <input type="number" value={resultado}/>
+
+      <CampoNumerico valor={num2} setValor={setNum2} label="#2" />
+      <Resultado valor={resultado} />
     </div>
   );
 }
