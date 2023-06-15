@@ -1,0 +1,12 @@
+.botao_operacao{
+    margin: 5px;
+    padding: 3px;
+    border: 3px;
+    border-radius: 5px;
+    width: 25px;
+}
+
+.operacao_selecionada{
+    background-color: blue;
+    color: white;
+}

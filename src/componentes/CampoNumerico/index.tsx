@@ -6,6 +6,8 @@ interface IPropsCampoNumerico {
 }
 
 export default function CampoNumerico({label, valor, setValor}:IPropsCampoNumerico) {
+
+    
     return(
         <div>
             {label}:
